@@ -9,7 +9,7 @@ if ($slug) {
                            JOIN bundle_links l ON b.id = l .bundle_id 
                            WHERE b.slug = ?");
     $stmt->execute([$slug]);
-    $bundle_data = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    &bundle_data =&smt->fetchAll(PDO::FETCH_ASSOC); 
     
     if (!$bundle_data) { $error = "Bundle not found."; }
 }
