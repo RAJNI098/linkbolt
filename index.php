@@ -78,7 +78,7 @@ if ($slug) {
                         <input type="text" id="b-name" placeholder="Bundle Name (e.g. My Socials)" class="w-full p-3 rounded-xl input-box">
                         <input type="text" id="b-slug" placeholder="custom-slug" class="w-full p-3 rounded-xl input-box">
                         
-                        <div class="pt-4 border-t border-slate-700">
+                        <div class="pt-4 border-t border-slate-800">
                             <p class="text-xs text-slate-500 mb-2lowercase font-bold">Add Links to this bundle</p>
                             <div id="links-builder" class="space-y-2 mb-4">
                                 <div class="flex gap-2">
