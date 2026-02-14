@@ -6,7 +6,7 @@ $slug = $_GET['s'] ?? null;
 if ($slug) {
     $stmt = $pdo->prepare("SELECT b.bundle_name, l.link_title, l.destination_url 
                            FROM bundles b 
-                           JOIN bundle_links l ON b.id = l.bundle_id 
+                           JOIN bundle_links l ON b.id = l .bundle_id 
                            WHERE b.slug = ?");
     $stmt->execute([$slug]);
     $bundle_data = $stmt->fetchAll(PDO::FETCH_ASSOC);
