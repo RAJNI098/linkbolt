@@ -79,7 +79,7 @@ if ($slug) {
                         <input type="text" id="b-slug" placeholder="custom-slug" class="w-full p-3 rounded-xl input-box">
                         
                         <div class="pt-4 border-t border-slate-700">
-                            <p class="text-xs text-slate-500 mb-2 uppercase font-bold">Add Links to this bundle</p>
+                            <p class="text-xs text-slate-500 mb-2lowercase font-bold">Add Links to this bundle</p>
                             <div id="links-builder" class="space-y-2 mb-4">
                                 <div class="flex gap-2">
                                     <input type="text" placeholder="Title" class="w-1/3 p-2 text-sm rounded-lg input-box link-title-in">
